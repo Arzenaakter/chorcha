@@ -10,13 +10,19 @@ import progress from "@/asssets/progress.png";
 
 const GridView = () => {
   return (
-    <div className="flex lg:flex-row flex-col items-center justify-center gap-10">
-      <div className="grid  lg:grid-cols-2 gap-5 ">
-        <Image src={progress} alt="" />
-        <Image src={question} alt="" />
-        <Image src={question} alt="" />
-        <Image src={question} alt="" />
+    <div className="flex lg:flex-row flex-col items-center justify-center gap-10 my-10">
+      <div>
+        {" "}
+        <div className="flex lg:flex-row flex-col items-center justify-center gap-10  mb-10 ">
+          <Image src={progress} alt="" />
+          <Image src={question} alt="" />
+        </div>
+        <div className="flex lg:flex-row flex-col items-center justify-center gap-10 ">
+          <Image src={bangla} alt="" />
+          <Image src={wkPoint} alt="" />
+        </div>
       </div>
+
       <div>
         <Image src={goldLig} alt="" />
       </div>
